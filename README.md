@@ -53,7 +53,9 @@ For real-time detection, we used **OpenCV** to access the webcam or video feed. 
 ## How to Use
 
 - **Train the model** using the provided `train_model.py` script.
-- **Run real-time emotion detection** using the `real_time_emotion_detection.py` script, which utilizes a webcam feed.
+- **Run real-time emotion detection** using the `real_time_emotion_detection.py` script, which utilizes a webcam feed:
+  ```bash
+  python real_time_emotion_detection.py
 
 ## Files
 
@@ -66,6 +68,7 @@ For real-time detection, we used **OpenCV** to access the webcam or video feed. 
 ## Results
 
 The trained CNN model achieved high accuracy in classifying the seven emotions from facial expressions, with potential applications in:
+
 - **Automotive**: Detecting driver fatigue and emotions.
 - **Education**: Monitoring student engagement and emotions.
 - **Surveillance**: Detecting suspicious or harmful emotions.
@@ -75,10 +78,7 @@ The trained CNN model achieved high accuracy in classifying the seven emotions f
 This project successfully demonstrated how deep learning techniques like CNNs can be applied to facial emotion detection with high accuracy. Future improvements could include expanding the dataset, refining the model, and deploying it on edge devices for real-time performance.
 
 ## References
+
 - [Keras Documentation](https://keras.io/)
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - [OpenCV Documentation](https://opencv.org/)
-
----
-
-Feel free to modify the usage or add more details as needed!
